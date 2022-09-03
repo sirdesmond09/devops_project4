@@ -1,14 +1,15 @@
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/sirdesmond09/devops_project4/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/sirdesmond09/devops_project4/tree/master)
+
 ## Project Overview
 
 This project deployes a Machine Learning Microservice API. 
 
-I was given a pre-trained, `sklearn` model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on. You can read more about the data, which was initially taken from Kaggle, on [the data source site](https://www.kaggle.com/c/boston-housing). This project could be extended to any pre-trained machine learning model, such as those for image recognition and data labeling.
-
+I was given a pre-trained, `sklearn` model that has been trained to predict housing prices in Boston according to several features, such as average rooms, highway access, and so on. More details about the data can be found on [the data source site](https://www.kaggle.com/c/boston-housing).
 ### Project Tasks
 
-The following tasks were performed:
+Here is a list of task that was performed:
 * Test project code using linting
-* Complete Dockerfile to containerize the application
+* Complete the Dockerfile to containerize the application
 * Deploy the containerized application using Docker and make a prediction
 * Improve the log statements in the source code
 * Configure Kubernetes and create a Kubernetes cluster

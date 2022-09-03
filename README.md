@@ -20,18 +20,18 @@ Here is a list of task that was performed:
 ---
 ### Short description of folders and files in the repo
 
-* [.circleci](/Project_4_Operationalize_ML_API/.circleci): For the CircleCI build
-* [model_data](/Project_4_Operationalize_ML_API/model_data) : this folder contains the pretrained `sklearn` model and housing csv files
-* [output_txt_files](/Project_4_Operationalize_ML_API/output_txt_files): folder contains sample output logs from running `./run_docker.sh` and `./run_kubernetes.sh`
-* [app.py](/Project_4_Operationalize_ML_API/app.py) : contains the flask app. Flask is a python web framework
-* [Dockerfile](/Project_4_Operationalize_ML_API/app.py): contains instructions to containerize the application
-* [Makefile](/Project_4_Operationalize_ML_API/Makefile) : contains instructions for environment setup and lint tests
-* [requirements.txt](/Project_4_Operationalize_ML_API/requirements.txt): list of required dependencies
-* [run_docker.sh](/Project_4_Operationalize_ML_API/run_docker.sh): bash script to build Docker image and run the application in a Docker container
-* [upload_docker.sh](/Project_4_Operationalize_ML_API/upload_docker.sh): bash script to upload the built Docker image to Dockerhub
-* [run_kubernetes.sh](/Project_4_Operationalize_ML_API/run_kubernetes.sh): bash script to run the application in a Kubernetes cluster
-* [make_prediction.sh](/Project_4_Operationalize_ML_API/make_prediction.sh): bash script to make predictions against the Docker container and k8s cluster
-* [README.md](/Project_4_Operationalize_ML_API/README.md): this README file
+* [.circleci](/devops_project4/.circleci): For the CircleCI build
+* [model_data](/devops_project4/model_data) : this folder contains the pretrained `sklearn` model and housing csv files
+* [output_txt_files](/devops_project4/output_txt_files): folder contains sample output logs from running `./run_docker.sh` and `./run_kubernetes.sh`
+* [app.py](/devops_project4/app.py) : contains the flask app. Flask is a python web framework
+* [Dockerfile](/devops_project4/app.py): contains instructions to containerize the application
+* [Makefile](/devops_project4/Makefile) : contains instructions for environment setup and lint tests
+* [requirements.txt](/devops_project4/requirements.txt): list of required dependencies
+* [run_docker.sh](/devops_project4/run_docker.sh): bash script to build Docker image and run the application in a Docker container
+* [upload_docker.sh](/devops_project4/upload_docker.sh): bash script to upload the built Docker image to Dockerhub
+* [run_kubernetes.sh](/devops_project4/run_kubernetes.sh): bash script to run the application in a Kubernetes cluster
+* [make_prediction.sh](/devops_project4/make_prediction.sh): bash script to make predictions against the Docker container and k8s cluster
+* [README.md](/devops_project4/README.md): this README file
 
 ### Instructions
 ## Setup the Environment

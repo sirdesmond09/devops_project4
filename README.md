@@ -20,7 +20,8 @@ Here is a list of task that was performed:
 ---
 ### Short description of folders and files in the repo
 
-* [.circleci](/devops_project4/.circleci): For the CircleCI build
+
+* [.circleci](devops_project4/.circleci/): For the CircleCI build
 * [model_data](/devops_project4/model_data) : this folder contains the pretrained `sklearn` model and housing csv files
 * [output_txt_files](/devops_project4/output_txt_files): folder contains sample output logs from running `./run_docker.sh` and `./run_kubernetes.sh`
 * [app.py](/devops_project4/app.py) : contains the flask app. Flask is a python web framework
